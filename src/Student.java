@@ -32,9 +32,11 @@ public class Student {
     public void setOcjena(double ocjena) {
         if (ocjena >= 1.0 && ocjena <= 5.0) {
             this.ocjena = ocjena;
-            System.out.println("Uspjesan unos ocjene!");
+            System.out.println("Uspjesan unos ocjene za studenta! " + this.ime);
         } else {
             System.out.println("Krivi unos ocjene, molim unesite ocjenu 1-5!");
         }
     }
+
+
 }
