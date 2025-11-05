@@ -1,8 +1,8 @@
 package model;
 
 public class Auto {
-    public String marka;
-    public int brojVrata;
+    private String marka;
+    private int brojVrata;
 
     public Auto(String marka, int brojVrata) {
         this.marka = marka;
